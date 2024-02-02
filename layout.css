@@ -1,0 +1,53 @@
+
+
+.container {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1440px;
+    border: 2px solid;
+    border-color: brown;
+}
+
+.nav-container a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.nav-container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    color: #000;
+
+    font-family: 'Rancho', cursive;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+menu {
+    width: 443px;
+}
+
+menu p { 
+color: #000;
+font-family: "Josefin Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
+
+
+}
