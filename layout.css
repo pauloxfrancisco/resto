@@ -1,53 +1,126 @@
-
-
-.container {
-    margin: auto;
-    margin-top: 10px;
+body {
     max-width: 1440px;
-    border: 2px solid;
-    border-color: brown;
+    margin: 0 auto;
 }
 
-.nav-container a {
-    color: #000;
-    text-decoration: none;
-    font-family: "Libre Franklin", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-}
-
-.nav-container {
-    list-style: none;
+.container ul {
     display: flex;
+    list-style-type: none;
     justify-content: space-between;
+    margin: auto;
+}
+
+.container li {
+    margin-top: 10px;
+    margin: auto;
 
 }
 
-.logo {
+.container a {
     color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    text-decoration: none;
 
-    font-family: 'Rancho', cursive;
+
+}
+
+.container .logo {
+    color: #000;
+    font-family: "Rancho", cursive;
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-menu {
-    width: 443px;
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 130px;
+    margin-top: 150px;
 }
 
-menu p { 
-color: #000;
-font-family: "Josefin Sans";
-font-size: 48px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+span {
+    color: #2A9D8F;
+}
 
+.button-initial {
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px #f4a261;
+    color: #fff;
+    background-color: #f4a261;
+    width: 165px;
+    height: 50px;
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-left: 125px;
+}
 
+.button-orange {
+    display: flex;
 
+}
+
+.button-orange p {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 90px;
+    margin: 0 20px;
+}
+
+.nacho {
+    width: 600px;
+    height: 837px;
+    position: absolute;
+    left: 50%;
+    bottom: -30%;
+}
+
+.btns {
+    display: flex;
+    width: 650px;
+    height: 119px;
+    border: 2px solid blueviolet;
+    justify-content: space-around;
+    font-size: 50px;
+    padding-bottom: 20%
+}
+
+.btns i {
+    margin-top: 100px;
+}
+
+.btns p {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line-one {
+    width: 1px;
+    height: 120px;
+    background-color: black;
+    margin-top: 82px;
+}
+.line-two {
+    width: 1px;
+    height: 120px;
+    background-color: black;
+    margin-top: 82px;
 }
